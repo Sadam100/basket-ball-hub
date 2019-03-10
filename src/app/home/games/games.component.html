@@ -1,0 +1,40 @@
+<div class="mat-elevation-z8">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        2018-2019 Season
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <table mat-table [dataSource]="dataSource">
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="date">
+          <th mat-header-cell *matHeaderCellDef> Date </th>
+          <td mat-cell *matCellDef="let element"> {{element.date | date:'dd/MM/yyyy'}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="homeTeam">
+          <th mat-header-cell *matHeaderCellDef> Home Team </th>
+          <td mat-cell *matCellDef="let element"> {{element.home_team.full_name}} </td>
+        </ng-container>
+
+        <!-- Weight Column -->
+        <ng-container matColumnDef="visitor">
+          <th mat-header-cell *matHeaderCellDef> Visitor </th>
+          <td mat-cell *matCellDef="let element"> {{element.visitor_team.full_name}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+
+      <mat-paginator
+        [length]="length"
+        [pageSize]="pageSize"
+        (page)="pageChange($event)"
+        showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+  </mat-card>
+</div>
