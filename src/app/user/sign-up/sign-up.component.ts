@@ -22,7 +22,7 @@ export class SignUpComponent implements OnInit {
   }
   onSubmit(form: NgForm) {
     console.log('12 ', form.value);
-    this.webservice.httpPost('/userSignUp', form.value).then(res => {
+    this.webservice.httpPost('http://localhost:3000/api/userSignUp', form.value).then(res => {
         console.log('Success');
         this.resetForm(form);
       },
