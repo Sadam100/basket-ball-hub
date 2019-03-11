@@ -3536,19 +3536,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _user_user_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./user/user.component */ "./src/app/user/user.component.ts");
 /* harmony import */ var _user_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./user/sign-up/sign-up.component */ "./src/app/user/sign-up/sign-up.component.ts");
 /* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @auth0/angular-jwt */ "./node_modules/@auth0/angular-jwt/index.js");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./user/sign-in/sign-in.component */ "./src/app/user/sign-in/sign-in.component.ts");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../services/auth-guard.service */ "./src/services/auth-guard.service.ts");
-/* harmony import */ var _home_games_games_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./home/games/games.component */ "./src/app/home/games/games.component.ts");
-/* harmony import */ var _home_teams_teams_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./home/teams/teams.component */ "./src/app/home/teams/teams.component.ts");
-/* harmony import */ var _home_players_players_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./home/players/players.component */ "./src/app/home/players/players.component.ts");
-/* harmony import */ var _home_teams_team_detail_team_detail_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./home/teams/team-detail/team-detail.component */ "./src/app/home/teams/team-detail/team-detail.component.ts");
-/* harmony import */ var _home_profile_profile_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./home/profile/profile.component */ "./src/app/home/profile/profile.component.ts");
-
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./user/sign-in/sign-in.component */ "./src/app/user/sign-in/sign-in.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _services_auth_guard_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../services/auth-guard.service */ "./src/services/auth-guard.service.ts");
+/* harmony import */ var _home_games_games_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./home/games/games.component */ "./src/app/home/games/games.component.ts");
+/* harmony import */ var _home_teams_teams_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./home/teams/teams.component */ "./src/app/home/teams/teams.component.ts");
+/* harmony import */ var _home_players_players_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./home/players/players.component */ "./src/app/home/players/players.component.ts");
+/* harmony import */ var _home_teams_team_detail_team_detail_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./home/teams/team-detail/team-detail.component */ "./src/app/home/teams/team-detail/team-detail.component.ts");
+/* harmony import */ var _home_profile_profile_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./home/profile/profile.component */ "./src/app/home/profile/profile.component.ts");
 
 
 
@@ -3577,40 +3575,33 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
                 _user_user_component__WEBPACK_IMPORTED_MODULE_5__["UserComponent"],
                 _user_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_6__["SignUpComponent"],
-                _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_10__["SignInComponent"],
-                _home_home_component__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"],
-                _home_games_games_component__WEBPACK_IMPORTED_MODULE_15__["GamesComponent"],
-                _home_teams_teams_component__WEBPACK_IMPORTED_MODULE_16__["TeamsComponent"],
-                _home_players_players_component__WEBPACK_IMPORTED_MODULE_17__["PlayersComponent"],
-                _home_teams_team_detail_team_detail_component__WEBPACK_IMPORTED_MODULE_18__["TeamDetailComponent"],
-                _home_profile_profile_component__WEBPACK_IMPORTED_MODULE_19__["ProfileComponent"]
+                _user_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_9__["SignInComponent"],
+                _home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"],
+                _home_games_games_component__WEBPACK_IMPORTED_MODULE_14__["GamesComponent"],
+                _home_teams_teams_component__WEBPACK_IMPORTED_MODULE_15__["TeamsComponent"],
+                _home_players_players_component__WEBPACK_IMPORTED_MODULE_16__["PlayersComponent"],
+                _home_teams_team_detail_team_detail_component__WEBPACK_IMPORTED_MODULE_17__["TeamDetailComponent"],
+                _home_profile_profile_component__WEBPACK_IMPORTED_MODULE_18__["ProfileComponent"]
             ],
             imports: [
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClientModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_9__["BrowserAnimationsModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatFormFieldModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatInputModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatIconModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatCardModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatButtonModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatSidenavModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatMenuModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatToolbarModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatExpansionModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatPaginatorModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatTableModule"],
-                _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_8__["JwtModule"].forRoot({
-                    config: {
-                        tokenGetter: function () {
-                            return localStorage.getItem('access_token');
-                        }
-                    }
-                })
+                _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatTableModule"]
             ],
-            providers: [_services_auth_guard_service__WEBPACK_IMPORTED_MODULE_14__["AuthGuardService"]],
+            providers: [_services_auth_guard_service__WEBPACK_IMPORTED_MODULE_13__["AuthGuardService"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         })
     ], AppModule);
@@ -4487,16 +4478,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./auth.service */ "./src/services/auth.service.ts");
-/* harmony import */ var _web_service_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./web-service.service */ "./src/services/web-service.service.ts");
-
+/* harmony import */ var _web_service_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./web-service.service */ "./src/services/web-service.service.ts");
 
 
 
 
 var AuthGuardService = /** @class */ (function () {
-    function AuthGuardService(auth, web, router) {
-        this.auth = auth;
+    function AuthGuardService(web, router) {
         this.web = web;
         this.router = router;
     }
@@ -4517,49 +4505,9 @@ var AuthGuardService = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
             providedIn: 'root'
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"], _web_service_service__WEBPACK_IMPORTED_MODULE_4__["WebServiceService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_web_service_service__WEBPACK_IMPORTED_MODULE_3__["WebServiceService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], AuthGuardService);
     return AuthGuardService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/services/auth.service.ts":
-/*!**************************************!*\
-  !*** ./src/services/auth.service.ts ***!
-  \**************************************/
-/*! exports provided: AuthService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthService", function() { return AuthService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @auth0/angular-jwt */ "./node_modules/@auth0/angular-jwt/index.js");
-
-
-
-var AuthService = /** @class */ (function () {
-    function AuthService(jwtHelper) {
-        this.jwtHelper = jwtHelper;
-    }
-    AuthService.prototype.isAuthenticated = function () {
-        var token = localStorage.getItem('access_token').split('.')[1];
-        console.log(token);
-        // Check whether the token is expired and return
-        // true or false
-        return !this.jwtHelper.isTokenExpired(token);
-    };
-    AuthService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-            providedIn: 'root'
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_2__["JwtHelperService"]])
-    ], AuthService);
-    return AuthService;
 }());
 
 
@@ -4579,8 +4527,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
-
 
 
 
@@ -4588,13 +4534,13 @@ var WebServiceService = /** @class */ (function () {
     function WebServiceService(http) {
         this.http = http;
     }
-    WebServiceService.prototype.httpSubPost = function (url, body) {
-        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiBaseUrl + url, body);
-    };
+    // httpSubPost(url, body) {
+    //   return this.http.post(url, body);
+    // }
     WebServiceService.prototype.httpPost = function (url, body) {
         var _this = this;
         var promise = new Promise(function (resolve, reject) {
-            _this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiBaseUrl + url, body)
+            _this.http.post(url, body)
                 .toPromise()
                 .then(function (res) {
                 if (res) {
@@ -4647,7 +4593,7 @@ var WebServiceService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/sadam/TerminalCode/music-store-bv/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/sadam/TerminalCode/basket-ball-hub/src/main.ts */"./src/main.ts");
 
 
 /***/ })

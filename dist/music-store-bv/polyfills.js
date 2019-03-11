@@ -5794,8 +5794,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/sadam/TerminalCode/music-store-bv/src/polyfills.ts */"./src/polyfills.ts");
-module.exports = __webpack_require__(/*! /home/sadam/TerminalCode/music-store-bv/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+__webpack_require__(/*! /home/sadam/TerminalCode/basket-ball-hub/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /home/sadam/TerminalCode/basket-ball-hub/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
 
 
 /***/ })

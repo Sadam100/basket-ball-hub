@@ -1,0 +1,11 @@
+node_modules
+*.idea
+*.zip
+*.rar
+*.docx
+*.pdf
+#temp
+uploads
+redis-logs.txt
+*.exe
+package-lock.json

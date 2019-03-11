@@ -8,12 +8,12 @@ import {environment} from '../environments/environment';
 export class WebServiceService {
 
   constructor(private http: HttpClient) { }
-  httpSubPost(url, body) {
-    return this.http.post(environment.apiBaseUrl + url, body);
-  }
+  // httpSubPost(url, body) {
+  //   return this.http.post(url, body);
+  // }
   httpPost(url, body) {
     const promise = new Promise((resolve, reject) => {
-      this.http.post(environment.apiBaseUrl + url, body)
+      this.http.post(url, body)
         .toPromise()
         .then(
           res => {

@@ -56,14 +56,7 @@ import { ProfileComponent } from './home/profile/profile.component';
     MatToolbarModule,
     MatExpansionModule,
     MatPaginatorModule,
-    MatTableModule,
-	JwtModule.forRoot({
-      config: {
-        tokenGetter: () => {
-          return localStorage.getItem('access_token');
-        }
-      }
-    })
+    MatTableModule
   ],
   providers: [AuthGuardService],
   bootstrap: [AppComponent]
